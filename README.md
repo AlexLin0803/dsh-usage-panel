@@ -1,8 +1,13 @@
 # dsh-usage-panel
 
-A DeepSeek Harness (`dsh`) plugin that adds a **Token usage** page to Settings: KPI cards, a
-26-week activity heatmap, a per-model stacked bar chart and a model donut — all folded from the
-durable Session logs already on your machine.
+A DeepSeek Harness (`dsh`) plugin that adds a **Token usage** page: KPI cards, a 26-week activity
+heatmap, a per-model stacked bar chart and a model donut — all folded from the durable Session logs
+already on your machine.
+
+It has two entry points that render the same page:
+
+- a **row in the left sidebar**, which opens the page in the main column (no Settings dialog), and
+- **Settings → 用量 / Usage**, beside the other settings pages.
 
 ![Usage page](assets/preview-zh.png)
 
@@ -86,6 +91,9 @@ node dev/preview.mjs en
 # render the synthetic dataset instead of a live host (what the screenshots use)
 node dev/preview.mjs zh --sample --shot assets/preview-zh.png
 node dev/preview.mjs en --sample
+
+# render the main-column page instead of the Settings section
+node dev/preview.mjs zh --sample --panel
 ```
 
 Without `--sample` it calls a running host, so it never touches the repository's assets unless you

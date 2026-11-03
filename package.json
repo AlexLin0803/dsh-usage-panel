@@ -1,8 +1,8 @@
-{
+﻿{
   "name": "dsh-usage-panel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Token usage statistics for DeepSeek Harness: settings-page KPIs, a half-year activity heatmap, a per-model stacked bar chart and a model donut",
+  "description": "Token usage statistics for DeepSeek Harness: sidebar and Settings entry points, KPI cards, a half-year activity heatmap, a per-model stacked bar chart and a model donut",
   "type": "module",
   "main": "lib/index.js",
   "exports": {

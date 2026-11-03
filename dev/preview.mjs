@@ -31,7 +31,9 @@ const width = 900
 
 const sampleFile = path.join(HERE, 'sample-summary.json')
 const sample = ARGS.includes('--sample') ? JSON.parse(fs.readFileSync(sampleFile, 'utf8')) : null
+const panelMode = ARGS.includes('--panel')
 if (sample !== null) console.log('rendering the synthetic sample dataset')
+if (panelMode) console.log('rendering the main-column page instead of the settings section')
 
 /* ── 1. theme tokens ───────────────────────────────────────────────── */
 
@@ -184,7 +186,7 @@ async function renderStable(rounds = 10) {
 		occurrences.clear()
 		pendingEffects = []
 		dirty = false
-		html = serialize({ type: features.UsageSection, props })
+		html = serialize({ type: panelMode ? features.UsagePage : features.UsageSection, props })
 		if (pendingEffects.length === 0) return html
 		for (const effect of pendingEffects) effect()
 		await new Promise((resolve) => setTimeout(resolve, 900))
@@ -207,9 +209,10 @@ const page = `<!doctype html>
 html,body{margin:0;background:var(--dsw-alias-bg-base)}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--dsw-alias-label-primary)}
 .panel{width:840px;margin:0 auto;padding:22px 24px 40px;box-sizing:border-box}
+${panelMode ? `.panel{height:980px;padding:0;border-left:1px solid var(--dsw-alias-border-l2);border-right:1px solid var(--dsw-alias-border-l2)}` : ''}
 ${capturedCss}
 </style></head>
-<body><div class="panel">${markup}</div></body></html>`
+<body class="${panelMode ? 'panel-mode' : ''}"><div class="panel">${markup}</div></body></html>`
 
 const out = path.join(HERE, `preview-${language}.html`)
 fs.writeFileSync(out, page)

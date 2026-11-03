@@ -1,7 +1,12 @@
 # dsh-usage-panel
 
-给 DeepSeek Harness（`dsh`）加一个 **Token 用量** 设置页：KPI 卡片、26 周活跃热力图、按模型堆叠的
+给 DeepSeek Harness（`dsh`）加一个 **Token 用量** 页面：KPI 卡片、26 周活跃热力图、按模型堆叠的
 柱状图、模型环形图 —— 数据全部来自本机已有的会话持久日志。
+
+两个入口，页面内容完全一致：
+
+- **左侧边栏的一行**，点一下就在主工作区打开（不用进设置）；
+- **设置 → 用量**，与其它设置页并列。
 
 ![用量页面](assets/preview-zh.png)
 
@@ -79,6 +84,9 @@ node dev/preview.mjs en
 # 用合成数据渲染（截图就是这么生成的）
 node dev/preview.mjs zh --sample --shot assets/preview-zh.png
 node dev/preview.mjs en --sample
+
+# 渲染主工作区页面（而不是设置页里的那一版）
+node dev/preview.mjs zh --sample --panel
 ```
 
 不带 `--sample` 时会去调用正在运行的宿主；`--sample` 只读 `dev/sample-summary.json`，不碰真实日志。
