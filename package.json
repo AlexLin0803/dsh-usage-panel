@@ -1,0 +1,39 @@
+{
+  "name": "dsh-usage-panel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Token usage statistics for DeepSeek Harness: settings-page KPIs, a half-year activity heatmap, a per-model stacked bar chart and a model donut",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "package.json",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "assets/*.png"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "usage",
+    "tokens"
+  ],
+  "license": "MIT"
+}

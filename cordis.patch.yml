@@ -1,0 +1,7 @@
+# The dsh-usage-panel bundle patch.
+#
+# A bundle is one insert over the profile's empty root. `name` is the package
+# this bundle depends on; the row id is how the profile patch addresses it.
+- insert:
+    - id: usage-panel
+      name: 'dsh-usage-panel'

@@ -1,0 +1,1511 @@
+{
+  "ok": true,
+  "generatedAt": 1793676101219,
+  "root": "$DSH_HOME/sessions",
+  "rangeDays": 30,
+  "scanned": 42,
+  "sessions": {
+    "total": 57,
+    "active": 42,
+    "userMessages": 1908
+  },
+  "window": {
+    "firstAt": 1778029920000,
+    "lastAt": 1793702400000
+  },
+  "totals": {
+    "input": 147897776,
+    "output": 46894417,
+    "cacheRead": 3412470639,
+    "cacheWrite": 0,
+    "total": 3607262832,
+    "messages": 17175,
+    "steps": 17519,
+    "cacheHitRate": 0.9584599797658861,
+    "activeDays": 110,
+    "streak": 2,
+    "peak": {
+      "date": "2026-05-22",
+      "tokens": 67956098,
+      "messages": 324,
+      "sessions": 2
+    },
+    "avgPerActiveDay": 32793298,
+    "days": 182
+  },
+  "heatmap": {
+    "days": [
+      {
+        "date": "2026-05-06",
+        "tokens": 45975413,
+        "messages": 219,
+        "sessions": 1
+      },
+      {
+        "date": "2026-05-07",
+        "tokens": 16411768,
+        "messages": 78,
+        "sessions": 3
+      },
+      {
+        "date": "2026-05-08",
+        "tokens": 18257706,
+        "messages": 87,
+        "sessions": 2
+      },
+      {
+        "date": "2026-05-09",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-05-10",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-05-11",
+        "tokens": 41987697,
+        "messages": 200,
+        "sessions": 3
+      },
+      {
+        "date": "2026-05-12",
+        "tokens": 50413402,
+        "messages": 240,
+        "sessions": 1
+      },
+      {
+        "date": "2026-05-13",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-05-14",
+        "tokens": 24972887,
+        "messages": 119,
+        "sessions": 3
+      },
+      {
+        "date": "2026-05-15",
+        "tokens": 63936744,
+        "messages": 304,
+        "sessions": 1
+      },
+      {
+        "date": "2026-05-16",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-05-17",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-05-18",
+        "tokens": 29238028,
+        "messages": 139,
+        "sessions": 3
+      },
+      {
+        "date": "2026-05-19",
+        "tokens": 56134158,
+        "messages": 267,
+        "sessions": 2
+      },
+      {
+        "date": "2026-05-20",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-05-21",
+        "tokens": 56686227,
+        "messages": 270,
+        "sessions": 3
+      },
+      {
+        "date": "2026-05-22",
+        "tokens": 67956098,
+        "messages": 324,
+        "sessions": 2
+      },
+      {
+        "date": "2026-05-23",
+        "tokens": 17875385,
+        "messages": 85,
+        "sessions": 3
+      },
+      {
+        "date": "2026-05-24",
+        "tokens": 16883545,
+        "messages": 80,
+        "sessions": 1
+      },
+      {
+        "date": "2026-05-25",
+        "tokens": 58678124,
+        "messages": 279,
+        "sessions": 2
+      },
+      {
+        "date": "2026-05-26",
+        "tokens": 17172739,
+        "messages": 82,
+        "sessions": 1
+      },
+      {
+        "date": "2026-05-27",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-05-28",
+        "tokens": 13563703,
+        "messages": 65,
+        "sessions": 1
+      },
+      {
+        "date": "2026-05-29",
+        "tokens": 44536900,
+        "messages": 212,
+        "sessions": 1
+      },
+      {
+        "date": "2026-05-30",
+        "tokens": 25048248,
+        "messages": 119,
+        "sessions": 2
+      },
+      {
+        "date": "2026-05-31",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-01",
+        "tokens": 37434782,
+        "messages": 178,
+        "sessions": 3
+      },
+      {
+        "date": "2026-06-02",
+        "tokens": 17834209,
+        "messages": 85,
+        "sessions": 3
+      },
+      {
+        "date": "2026-06-03",
+        "tokens": 40838112,
+        "messages": 194,
+        "sessions": 2
+      },
+      {
+        "date": "2026-06-04",
+        "tokens": 63434712,
+        "messages": 302,
+        "sessions": 1
+      },
+      {
+        "date": "2026-06-05",
+        "tokens": 34037985,
+        "messages": 162,
+        "sessions": 2
+      },
+      {
+        "date": "2026-06-06",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-07",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-08",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-09",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-10",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-11",
+        "tokens": 17171654,
+        "messages": 82,
+        "sessions": 2
+      },
+      {
+        "date": "2026-06-12",
+        "tokens": 58089182,
+        "messages": 277,
+        "sessions": 1
+      },
+      {
+        "date": "2026-06-13",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-14",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-15",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-16",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-17",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-18",
+        "tokens": 7046917,
+        "messages": 34,
+        "sessions": 3
+      },
+      {
+        "date": "2026-06-19",
+        "tokens": 12915174,
+        "messages": 62,
+        "sessions": 1
+      },
+      {
+        "date": "2026-06-20",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-21",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-22",
+        "tokens": 27641679,
+        "messages": 132,
+        "sessions": 1
+      },
+      {
+        "date": "2026-06-23",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-06-24",
+        "tokens": 48946722,
+        "messages": 233,
+        "sessions": 1
+      },
+      {
+        "date": "2026-06-25",
+        "tokens": 43090578,
+        "messages": 205,
+        "sessions": 3
+      },
+      {
+        "date": "2026-06-26",
+        "tokens": 7760651,
+        "messages": 37,
+        "sessions": 1
+      },
+      {
+        "date": "2026-06-27",
+        "tokens": 10499439,
+        "messages": 50,
+        "sessions": 2
+      },
+      {
+        "date": "2026-06-28",
+        "tokens": 35375405,
+        "messages": 168,
+        "sessions": 1
+      },
+      {
+        "date": "2026-06-29",
+        "tokens": 26151611,
+        "messages": 125,
+        "sessions": 2
+      },
+      {
+        "date": "2026-06-30",
+        "tokens": 22882319,
+        "messages": 109,
+        "sessions": 1
+      },
+      {
+        "date": "2026-07-01",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-02",
+        "tokens": 42028842,
+        "messages": 200,
+        "sessions": 1
+      },
+      {
+        "date": "2026-07-03",
+        "tokens": 20333928,
+        "messages": 97,
+        "sessions": 1
+      },
+      {
+        "date": "2026-07-04",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-05",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-06",
+        "tokens": 19572463,
+        "messages": 93,
+        "sessions": 2
+      },
+      {
+        "date": "2026-07-07",
+        "tokens": 39632333,
+        "messages": 189,
+        "sessions": 2
+      },
+      {
+        "date": "2026-07-08",
+        "tokens": 50924022,
+        "messages": 242,
+        "sessions": 3
+      },
+      {
+        "date": "2026-07-09",
+        "tokens": 47913051,
+        "messages": 228,
+        "sessions": 2
+      },
+      {
+        "date": "2026-07-10",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-11",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-12",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-13",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-14",
+        "tokens": 35715389,
+        "messages": 170,
+        "sessions": 2
+      },
+      {
+        "date": "2026-07-15",
+        "tokens": 56695229,
+        "messages": 270,
+        "sessions": 2
+      },
+      {
+        "date": "2026-07-16",
+        "tokens": 21457332,
+        "messages": 102,
+        "sessions": 2
+      },
+      {
+        "date": "2026-07-17",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-18",
+        "tokens": 31154783,
+        "messages": 148,
+        "sessions": 1
+      },
+      {
+        "date": "2026-07-19",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-20",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-21",
+        "tokens": 7916393,
+        "messages": 38,
+        "sessions": 3
+      },
+      {
+        "date": "2026-07-22",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-23",
+        "tokens": 39721875,
+        "messages": 189,
+        "sessions": 2
+      },
+      {
+        "date": "2026-07-24",
+        "tokens": 61985564,
+        "messages": 295,
+        "sessions": 2
+      },
+      {
+        "date": "2026-07-25",
+        "tokens": 4131602,
+        "messages": 20,
+        "sessions": 3
+      },
+      {
+        "date": "2026-07-26",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-27",
+        "tokens": 42148258,
+        "messages": 201,
+        "sessions": 2
+      },
+      {
+        "date": "2026-07-28",
+        "tokens": 61564293,
+        "messages": 293,
+        "sessions": 1
+      },
+      {
+        "date": "2026-07-29",
+        "tokens": 34557630,
+        "messages": 165,
+        "sessions": 3
+      },
+      {
+        "date": "2026-07-30",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-07-31",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-01",
+        "tokens": 18940831,
+        "messages": 90,
+        "sessions": 1
+      },
+      {
+        "date": "2026-08-02",
+        "tokens": 32279399,
+        "messages": 154,
+        "sessions": 2
+      },
+      {
+        "date": "2026-08-03",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-04",
+        "tokens": 34935634,
+        "messages": 166,
+        "sessions": 2
+      },
+      {
+        "date": "2026-08-05",
+        "tokens": 26456026,
+        "messages": 126,
+        "sessions": 1
+      },
+      {
+        "date": "2026-08-06",
+        "tokens": 52524172,
+        "messages": 250,
+        "sessions": 1
+      },
+      {
+        "date": "2026-08-07",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-08",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-09",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-10",
+        "tokens": 26855878,
+        "messages": 128,
+        "sessions": 2
+      },
+      {
+        "date": "2026-08-11",
+        "tokens": 50193086,
+        "messages": 239,
+        "sessions": 3
+      },
+      {
+        "date": "2026-08-12",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-13",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-14",
+        "tokens": 7209814,
+        "messages": 34,
+        "sessions": 1
+      },
+      {
+        "date": "2026-08-15",
+        "tokens": 14120149,
+        "messages": 67,
+        "sessions": 1
+      },
+      {
+        "date": "2026-08-16",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-17",
+        "tokens": 24211993,
+        "messages": 115,
+        "sessions": 3
+      },
+      {
+        "date": "2026-08-18",
+        "tokens": 6633266,
+        "messages": 32,
+        "sessions": 1
+      },
+      {
+        "date": "2026-08-19",
+        "tokens": 51756211,
+        "messages": 246,
+        "sessions": 3
+      },
+      {
+        "date": "2026-08-20",
+        "tokens": 49695363,
+        "messages": 237,
+        "sessions": 2
+      },
+      {
+        "date": "2026-08-21",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-22",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-23",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-24",
+        "tokens": 53480147,
+        "messages": 255,
+        "sessions": 2
+      },
+      {
+        "date": "2026-08-25",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-26",
+        "tokens": 37148928,
+        "messages": 177,
+        "sessions": 2
+      },
+      {
+        "date": "2026-08-27",
+        "tokens": 18536610,
+        "messages": 88,
+        "sessions": 1
+      },
+      {
+        "date": "2026-08-28",
+        "tokens": 54481927,
+        "messages": 259,
+        "sessions": 2
+      },
+      {
+        "date": "2026-08-29",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-30",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-08-31",
+        "tokens": 12414118,
+        "messages": 59,
+        "sessions": 2
+      },
+      {
+        "date": "2026-09-01",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-02",
+        "tokens": 6612549,
+        "messages": 31,
+        "sessions": 3
+      },
+      {
+        "date": "2026-09-03",
+        "tokens": 27111916,
+        "messages": 129,
+        "sessions": 2
+      },
+      {
+        "date": "2026-09-04",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-05",
+        "tokens": 36941029,
+        "messages": 176,
+        "sessions": 1
+      },
+      {
+        "date": "2026-09-06",
+        "tokens": 4035070,
+        "messages": 19,
+        "sessions": 3
+      },
+      {
+        "date": "2026-09-07",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-08",
+        "tokens": 17106207,
+        "messages": 81,
+        "sessions": 3
+      },
+      {
+        "date": "2026-09-09",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-10",
+        "tokens": 15310472,
+        "messages": 73,
+        "sessions": 3
+      },
+      {
+        "date": "2026-09-11",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-12",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-13",
+        "tokens": 13668780,
+        "messages": 65,
+        "sessions": 1
+      },
+      {
+        "date": "2026-09-14",
+        "tokens": 48470063,
+        "messages": 231,
+        "sessions": 2
+      },
+      {
+        "date": "2026-09-15",
+        "tokens": 13996629,
+        "messages": 67,
+        "sessions": 1
+      },
+      {
+        "date": "2026-09-16",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-17",
+        "tokens": 14830487,
+        "messages": 71,
+        "sessions": 3
+      },
+      {
+        "date": "2026-09-18",
+        "tokens": 26941503,
+        "messages": 128,
+        "sessions": 3
+      },
+      {
+        "date": "2026-09-19",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-20",
+        "tokens": 32843436,
+        "messages": 156,
+        "sessions": 2
+      },
+      {
+        "date": "2026-09-21",
+        "tokens": 30890518,
+        "messages": 147,
+        "sessions": 1
+      },
+      {
+        "date": "2026-09-22",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-23",
+        "tokens": 32145903,
+        "messages": 153,
+        "sessions": 1
+      },
+      {
+        "date": "2026-09-24",
+        "tokens": 41020417,
+        "messages": 195,
+        "sessions": 1
+      },
+      {
+        "date": "2026-09-25",
+        "tokens": 61282708,
+        "messages": 292,
+        "sessions": 3
+      },
+      {
+        "date": "2026-09-26",
+        "tokens": 31929241,
+        "messages": 152,
+        "sessions": 1
+      },
+      {
+        "date": "2026-09-27",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-28",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-09-29",
+        "tokens": 39294240,
+        "messages": 187,
+        "sessions": 1
+      },
+      {
+        "date": "2026-09-30",
+        "tokens": 34801706,
+        "messages": 166,
+        "sessions": 2
+      },
+      {
+        "date": "2026-10-01",
+        "tokens": 30558898,
+        "messages": 146,
+        "sessions": 1
+      },
+      {
+        "date": "2026-10-02",
+        "tokens": 17565643,
+        "messages": 84,
+        "sessions": 3
+      },
+      {
+        "date": "2026-10-03",
+        "tokens": 35231694,
+        "messages": 168,
+        "sessions": 1
+      },
+      {
+        "date": "2026-10-04",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-05",
+        "tokens": 62379858,
+        "messages": 297,
+        "sessions": 1
+      },
+      {
+        "date": "2026-10-06",
+        "tokens": 20173885,
+        "messages": 96,
+        "sessions": 1
+      },
+      {
+        "date": "2026-10-07",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-08",
+        "tokens": 41589051,
+        "messages": 198,
+        "sessions": 1
+      },
+      {
+        "date": "2026-10-09",
+        "tokens": 33079453,
+        "messages": 158,
+        "sessions": 3
+      },
+      {
+        "date": "2026-10-10",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-11",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-12",
+        "tokens": 66636247,
+        "messages": 317,
+        "sessions": 1
+      },
+      {
+        "date": "2026-10-13",
+        "tokens": 33297021,
+        "messages": 159,
+        "sessions": 2
+      },
+      {
+        "date": "2026-10-14",
+        "tokens": 33641718,
+        "messages": 160,
+        "sessions": 2
+      },
+      {
+        "date": "2026-10-15",
+        "tokens": 36405762,
+        "messages": 173,
+        "sessions": 2
+      },
+      {
+        "date": "2026-10-16",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-17",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-18",
+        "tokens": 32895785,
+        "messages": 157,
+        "sessions": 3
+      },
+      {
+        "date": "2026-10-19",
+        "tokens": 16574432,
+        "messages": 79,
+        "sessions": 2
+      },
+      {
+        "date": "2026-10-20",
+        "tokens": 55073723,
+        "messages": 262,
+        "sessions": 3
+      },
+      {
+        "date": "2026-10-21",
+        "tokens": 12911664,
+        "messages": 61,
+        "sessions": 2
+      },
+      {
+        "date": "2026-10-22",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-23",
+        "tokens": 16021809,
+        "messages": 76,
+        "sessions": 2
+      },
+      {
+        "date": "2026-10-24",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-25",
+        "tokens": 5104856,
+        "messages": 24,
+        "sessions": 2
+      },
+      {
+        "date": "2026-10-26",
+        "tokens": 65535952,
+        "messages": 312,
+        "sessions": 1
+      },
+      {
+        "date": "2026-10-27",
+        "tokens": 54107164,
+        "messages": 258,
+        "sessions": 1
+      },
+      {
+        "date": "2026-10-28",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-29",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-30",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-10-31",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-11-01",
+        "tokens": 0,
+        "messages": 0,
+        "sessions": 0
+      },
+      {
+        "date": "2026-11-02",
+        "tokens": 22408841,
+        "messages": 107,
+        "sessions": 2
+      },
+      {
+        "date": "2026-11-03",
+        "tokens": 20630060,
+        "messages": 98,
+        "sessions": 3
+      }
+    ]
+  },
+  "series": [
+    {
+      "date": "2026-10-05",
+      "tokens": 62379858,
+      "messages": 297,
+      "byModel": {
+        "deepseek-v4.1-flash": 25932842,
+        "deepseek-flash": 17575402,
+        "deepseek-reasoner": 18871614
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "tokens": 20173885,
+      "messages": 96,
+      "byModel": {
+        "deepseek-v4.1-flash": 8701692,
+        "deepseek-flash": 5163514,
+        "deepseek-reasoner": 6308679
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-10-08",
+      "tokens": 41589051,
+      "messages": 198,
+      "byModel": {
+        "deepseek-v4.1-flash": 23197237,
+        "deepseek-flash": 12294408,
+        "deepseek-reasoner": 6097406
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "tokens": 33079453,
+      "messages": 158,
+      "byModel": {
+        "deepseek-v4.1-flash": 16266023,
+        "deepseek-flash": 12045316,
+        "deepseek-reasoner": 4768114
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-10-11",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-10-12",
+      "tokens": 66636247,
+      "messages": 317,
+      "byModel": {
+        "deepseek-v4.1-flash": 30557011,
+        "deepseek-flash": 23979565,
+        "deepseek-reasoner": 12099671
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "tokens": 33297021,
+      "messages": 159,
+      "byModel": {
+        "deepseek-v4.1-flash": 14690562,
+        "deepseek-flash": 11695467,
+        "deepseek-reasoner": 6910992
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "tokens": 33641718,
+      "messages": 160,
+      "byModel": {
+        "deepseek-v4.1-flash": 14873236,
+        "deepseek-flash": 8439051,
+        "deepseek-reasoner": 10329431
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "tokens": 36405762,
+      "messages": 173,
+      "byModel": {
+        "deepseek-v4.1-flash": 20139119,
+        "deepseek-flash": 13495220,
+        "deepseek-reasoner": 2771423
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-10-17",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-10-18",
+      "tokens": 32895785,
+      "messages": 157,
+      "byModel": {
+        "deepseek-v4.1-flash": 20246130,
+        "deepseek-flash": 9931908,
+        "deepseek-reasoner": 2717747
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "tokens": 16574432,
+      "messages": 79,
+      "byModel": {
+        "deepseek-v4.1-flash": 8205453,
+        "deepseek-flash": 5564559,
+        "deepseek-reasoner": 2804420
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "tokens": 55073723,
+      "messages": 262,
+      "byModel": {
+        "deepseek-v4.1-flash": 33105989,
+        "deepseek-flash": 15320470,
+        "deepseek-reasoner": 6647264
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "tokens": 12911664,
+      "messages": 61,
+      "byModel": {
+        "deepseek-v4.1-flash": 7886296,
+        "deepseek-flash": 4676850,
+        "deepseek-reasoner": 348518
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-10-23",
+      "tokens": 16021809,
+      "messages": 76,
+      "byModel": {
+        "deepseek-v4.1-flash": 8815889,
+        "deepseek-flash": 5095327,
+        "deepseek-reasoner": 2110593
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-10-25",
+      "tokens": 5104856,
+      "messages": 24,
+      "byModel": {
+        "deepseek-v4.1-flash": 2629380,
+        "deepseek-flash": 1683768,
+        "deepseek-reasoner": 791708
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "tokens": 65535952,
+      "messages": 312,
+      "byModel": {
+        "deepseek-v4.1-flash": 37457980,
+        "deepseek-flash": 22542028,
+        "deepseek-reasoner": 5535944
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "tokens": 54107164,
+      "messages": 258,
+      "byModel": {
+        "deepseek-v4.1-flash": 27484087,
+        "deepseek-flash": 13281984,
+        "deepseek-reasoner": 13341093
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-10-29",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-10-30",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-10-31",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-11-01",
+      "tokens": 0,
+      "messages": 0,
+      "byModel": {}
+    },
+    {
+      "date": "2026-11-02",
+      "tokens": 22408841,
+      "messages": 107,
+      "byModel": {
+        "deepseek-v4.1-flash": 11925808,
+        "deepseek-flash": 6364054,
+        "deepseek-reasoner": 4118979
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "tokens": 20630060,
+      "messages": 98,
+      "byModel": {
+        "deepseek-v4.1-flash": 12341435,
+        "deepseek-flash": 7993915,
+        "deepseek-reasoner": 294710
+      }
+    }
+  ],
+  "models": [
+    {
+      "model": "deepseek-v4.1-flash",
+      "provider": "deepseek-account",
+      "total": 1948325606,
+      "input": 79881350,
+      "output": 25328233,
+      "cacheRead": 1843116023,
+      "cacheWrite": 0,
+      "messages": 9278,
+      "sessions": 76,
+      "share": 0.5401119066557665
+    },
+    {
+      "model": "deepseek-flash",
+      "provider": "deepseek-account",
+      "total": 1096031306,
+      "input": 44937284,
+      "output": 14248407,
+      "cacheRead": 1036845615,
+      "cacheWrite": 0,
+      "messages": 5219,
+      "sessions": 43,
+      "share": 0.30384015721757646
+    },
+    {
+      "model": "deepseek-reasoner",
+      "provider": "openrouter",
+      "total": 562905920,
+      "input": 23079143,
+      "output": 7317777,
+      "cacheRead": 532509000,
+      "cacheWrite": 0,
+      "messages": 2681,
+      "sessions": 23,
+      "share": 0.15604793612665704
+    }
+  ],
+  "providers": [
+    {
+      "provider": "deepseek-account",
+      "total": 3044356912,
+      "messages": 14497,
+      "models": [
+        "deepseek-v4.1-flash",
+        "deepseek-flash"
+      ]
+    },
+    {
+      "provider": "openrouter",
+      "total": 562905920,
+      "messages": 2681,
+      "models": [
+        "deepseek-reasoner"
+      ]
+    }
+  ],
+  "topSessions": [
+    {
+      "id": "session-00000000-0000-4000-8000-000000000000",
+      "title": "Refactor the settings shell",
+      "cwd": "D:/work/demo",
+      "updatedAt": 1793676101219,
+      "total": 663736361,
+      "messages": 3161,
+      "steps": 3687,
+      "models": [
+        "deepseek-v4.1-flash",
+        "deepseek-flash"
+      ]
+    },
+    {
+      "id": "session-00000000-0000-4000-8000-000000000001",
+      "title": "Debug a flaky integration test",
+      "cwd": "D:/work/demo",
+      "updatedAt": 1793529221219,
+      "total": 436478803,
+      "messages": 2078,
+      "steps": 2425,
+      "models": [
+        "deepseek-flash",
+        "deepseek-reasoner"
+      ]
+    },
+    {
+      "id": "session-00000000-0000-4000-8000-000000000002",
+      "title": "Explainer: JWT vs. session cookies",
+      "cwd": "D:/work/notes",
+      "updatedAt": 1793382341219,
+      "total": 263330187,
+      "messages": 1254,
+      "steps": 1463,
+      "models": [
+        "deepseek-v4.1-flash",
+        "deepseek-v4.1-flash"
+      ]
+    },
+    {
+      "id": "session-00000000-0000-4000-8000-000000000003",
+      "title": "Poster layout experiment",
+      "cwd": "D:/work/design",
+      "updatedAt": 1793235461219,
+      "total": 115432411,
+      "messages": 550,
+      "steps": 641,
+      "models": [
+        "deepseek-reasoner",
+        "deepseek-flash"
+      ]
+    },
+    {
+      "id": "session-00000000-0000-4000-8000-000000000004",
+      "title": "Weekend side project",
+      "cwd": "D:/work/scratch",
+      "updatedAt": 1793088581219,
+      "total": 39679891,
+      "messages": 189,
+      "steps": 220,
+      "models": [
+        "deepseek-flash",
+        "deepseek-reasoner"
+      ]
+    }
+  ],
+  "problems": []
+}
