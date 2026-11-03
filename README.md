@@ -69,6 +69,22 @@ harness. Then open **Settings → 用量 / Usage**.
 If you would rather not edit the profile by hand, install through the Web sidebar's **Plugins**
 page or the `plugin_manager` tool, which maintain `dsh.profile.bundles` for you.
 
+## Troubleshooting
+
+**The sidebar row or Settings page disappears after a config reload.** The bundle was skipped at
+composition time. Check the manifest encoding first — `package.json` must be UTF-8 **without a
+BOM**, otherwise `JSON.parse` throws and DSH drops the whole bundle. You can compose a profile
+throwaway copy offline and look for the warning:
+
+```powershell
+Copy-Item ~/.dsh/profiles/desktop ~/.dsh/profiles/desktop-check -Recurse
+dsh --profile desktop-check --dump-config | Select-String "skipping profile bundle"
+Remove-Item ~/.dsh/profiles/desktop-check -Recurse
+```
+
+A healthy dump contains `- id: usage-panel`. The `.editorconfig` in this repo pins the encoding so
+editors do not reintroduce the BOM.
+
 ## Verify the host route
 
 ```powershell

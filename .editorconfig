@@ -1,0 +1,14 @@
+root = true
+
+# package.json is parsed by DSH with JSON.parse: a UTF-8 BOM makes the whole
+# bundle get skipped ("skipping profile bundle ... Unexpected token '\ufeff'").
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.png]
+insert_final_newline = false

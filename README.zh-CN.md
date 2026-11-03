@@ -64,6 +64,20 @@ dsh plugin --profile desktop add link:E:/path/to/dsh-usage-panel
 不想手改 profile 的话，也可以用 Web 侧栏的 **插件** 页面或 `plugin_manager` 工具安装，
 它们会自行维护 `dsh.profile.bundles`。
 
+## 排查
+
+**配置重载之后，侧边栏那一行或设置页消失了。** 说明组合时这个 bundle 被跳过了。先查清单文件的编码：
+`package.json` 必须是 **不带 BOM** 的 UTF-8，否则 `JSON.parse` 直接抛错，DSH 会丢掉整个 bundle。
+可以拿 profile 的副本离线组合一次，看有没有那条警告：
+
+```powershell
+Copy-Item ~/.dsh/profiles/desktop ~/.dsh/profiles/desktop-check -Recurse
+dsh --profile desktop-check --dump-config | Select-String "skipping profile bundle"
+Remove-Item ~/.dsh/profiles/desktop-check -Recurse
+```
+
+健康的输出里应该有一行 `- id: usage-panel`。仓库里的 `.editorconfig` 已经钉住编码，避免编辑器再把 BOM 加回来。
+
 ## 验证宿主路由
 
 ```powershell
